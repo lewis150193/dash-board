@@ -23,9 +23,22 @@ const trainStatus = 'https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrai
         })
 };
 
- const getTrainStatus = () => {
+ const getTrainStatus = (): Promise<Array<object>> => {
+     const array: Array<object> = [];
      return axios.get(trainStatus)
-         .then(data => console.log(data.data))
+             //Make a train line object
+         .then(trainLines => {
+            trainLines.data.map((train: any) => {
+                //Make train object
+                const trainObj: any = {};
+                console.log(train)
+                trainObj.name = train.name;
+                trainObj.service = train.lineStatuses[0].statusSeverityDescription;
+                // console.log(array)
+                array.push(trainObj);
+            });
+            return array;
+         })
  };
 
 
