@@ -1,22 +1,47 @@
-.grid-item {
-  height: 550px;
-  flex-basis: 20%;
-  -ms-flex: auto;
-  width: 259px;
-  position: relative;
-  padding: 10px;
-  box-sizing: border-box;
-  color: white;
+/*.grid-item {*/
+/*  height: 550px;*/
+/*  flex-basis: 20%;*/
+/*  -ms-flex: auto;*/
+/*  width: 259px;*/
+/*  position: relative;*/
+/*  padding: 10px;*/
+/*  box-sizing: border-box;*/
+/*  color: white;*/
 
-}
+/*}*/
+
+/*.container {*/
+/*  max-width: 1335px;*/
+/*  margin: 0 auto;*/
+/*  background-color: grey;*/
+/*}*/
+/*.grid-row {*/
+/*  display: flex;*/
+/*  flex-flow: row wrap;*/
+/*  justify-content: flex-start;*/
+/*}*/
 
 .container {
-  max-width: 1335px;
-  margin: 0 auto;
-  background-color: grey;
+  background-color: #2a3439;
 }
+
 .grid-row {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  padding: 40px;
+  flex: 1;
+}
+
+
+/*@font-face {*/
+/*  font-family: 'theimmortal';*/
+/*  src: local('theimmortal'), url(./fonts/theimmortal.tff) format('truetype');*/
+/*}*/
