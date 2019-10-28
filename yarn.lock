@@ -8155,6 +8155,11 @@ react-error-overlay@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.3.tgz#c378c4b0a21e88b2e159a3e62b2f531fd63bf60d"
   integrity sha512-bOUvMWFQVk5oz8Ded9Xb7WVdEi3QGLC8tH7HmYP0Fdp4Bn3qw0tRFmr5TW6mvahzvmrK4a6bqWGfCevBflP+Xw==
 
+react-interval-timer@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-interval-timer/-/react-interval-timer-1.0.5.tgz#2425de06c518dfdb3a53bf0444d8dfff53558185"
+  integrity sha512-WCUJKKY2UBxGzmAadpgT9Vs7GcgbGioyqvWjGU1VZMt5zUmuYsf17kC1pes08U2mxHPzM5/sWCGPH0H1nwox0A==
+
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
