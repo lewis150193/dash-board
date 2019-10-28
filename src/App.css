@@ -40,6 +40,19 @@
   flex: 1;
 }
 
+.display-inline {
+    display: inline;
+}
+
+.right-absolute {
+    right: 0px;
+    position: absolute;
+}
+
+.title {
+    display: inline-flex;
+    margin: 37px;
+}
 
 /*@font-face {*/
 /*  font-family: 'theimmortal';*/
