@@ -148,6 +148,32 @@ width: 100%;
 .widget-london-transport .TFLItem h3 {
   margin-bottom: 5px;
 }
+
+button {
+  cursor: pointer;
+}
+
+/** Mobile Styles **/
+@media (max-width: 990px) {
+  .grid-item {
+    flex: 1 0 auto;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-item > div {
+    width: 100%;
+  }
+  .widget {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-item {
+    padding: 20px 10px;
+  }
+}
 /*@font-face {*/
 /*  font-family: 'theimmortal';*/
 /*  src: local('theimmortal'), url(./fonts/theimmortal.tff) format('truetype');*/
