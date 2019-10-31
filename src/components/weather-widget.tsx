@@ -12,12 +12,12 @@ import { getWether } from "../utils/axiosCalls";
 }
 
  const WeatherWidgetComponent = ({name, weather, main, temp } : IWeather) => (
-     <>
+     <div className="widget widget-weather">
          <h1>City: {name}</h1>
          <p>{weather}</p>
          <p>{main}</p>
          <p>Temp: {temp}</p>
-     </>
+     </div>
  );
 
 const WeatherWidget: React.FC = () => {
