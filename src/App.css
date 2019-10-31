@@ -72,6 +72,8 @@ width: 100%;
   flex-basis: 100%;
   padding: 40px;
   flex: 1;
+  border-left-style: ridge;
+  background-image: linear-gradient(to right, #CDD1D1,#DCDFDF);
 }
 
 .display-inline {
