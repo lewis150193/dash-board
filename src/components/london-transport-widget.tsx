@@ -19,7 +19,7 @@ const TFLWidget = () => {
         <div>
             {trainLines.map((item: ITrainStatus) => {
                 return (
-                    <div className="TFLItem">
+                    <div  key={item.name} className="TFLItem">
                         <h3>{item.name}</h3>
                         <p>{item.service}</p>
                     </div>

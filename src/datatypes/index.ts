@@ -14,7 +14,17 @@ export interface ICharaterObject  {
     episode: Array<string>,
     url: string
     created: string
-
-
 }
+
+export interface ITrain {
+    name: string,
+    lineStatuses: Array<any>
+}
+
+
+export interface ITrainServices {
+    name: string,
+    service: string
+}
+
 
