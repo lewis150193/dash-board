@@ -150,8 +150,7 @@ width: 100%;
 }
 
 .todo-list {
-  color: grey;
-  background-color: burlywood;
+  margin-top:  2vmin;
 }
 
 .todo-list-item {
